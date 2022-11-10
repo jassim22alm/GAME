@@ -1,4 +1,4 @@
-# ECS657U Group K Adventure Game Prototype Insturctions
+# ECS657U Group K Adventure Game Prototype Instructions
 Objective:
 Find the safe house under the timer(100 seconds) and avoid the villain.
 
