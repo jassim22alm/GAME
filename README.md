@@ -1,4 +1,7 @@
 # ECS657U Group K Survival Game Prototype Instructions
+
+*PLEASE OPEN THE "GAME FINAL" FOLDER FOR THE PROTOTYPE"
+
 Objective:
 Find the safe house before the timer(100 seconds) and avoid the villain.
 
