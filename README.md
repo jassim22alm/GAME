@@ -3,7 +3,7 @@
 *PLEASE OPEN THE "GAME FINAL" FOLDER FOR THE PROTOTYPE"
 
 Objective:
-Find the safe house before the timer(100 seconds) and avoid the villain.
+Find the safe house before the timer(100 seconds) runs out and avoid the villain.
 
 To win:
 1. Player has to find out the safe house in the map.
