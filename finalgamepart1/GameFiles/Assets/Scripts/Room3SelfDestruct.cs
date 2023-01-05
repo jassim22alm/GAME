@@ -5,7 +5,7 @@ using UnityEngine;
 public class Room3SelfDestruct : MonoBehaviour
 {
     public GameController gameController;
-    //public GameObject openText;
+    public GameObject uiObject;
     public bool inReach;
 
     // Start is called before the first frame update
@@ -13,6 +13,7 @@ public class Room3SelfDestruct : MonoBehaviour
     {
         inReach = false;
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        uiObject.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)
@@ -20,7 +21,7 @@ public class Room3SelfDestruct : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = true;
-            //openText.SetActive(true);
+            uiObject.SetActive(true);
         }
     }
 
@@ -29,7 +30,7 @@ public class Room3SelfDestruct : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = false;
-            //openText.SetActive(false);
+            uiObject.SetActive(false);
         }
     }
 
@@ -46,6 +47,7 @@ public class Room3SelfDestruct : MonoBehaviour
     {
         gameController.selfDestruct = true;
         Destroy(transform.gameObject);
+        Destroy(uiObject);
     }
 
 }

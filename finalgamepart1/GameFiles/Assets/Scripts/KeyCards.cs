@@ -5,7 +5,7 @@ using UnityEngine;
 public class KeyCards : MonoBehaviour
 {
     public GameController gameController;
-    //public GameObject openText;
+    public GameObject uiObject;
     public bool inReach;
 
     // Start is called before the first frame update
@@ -13,6 +13,7 @@ public class KeyCards : MonoBehaviour
     {
         inReach = false;
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        uiObject.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)
@@ -20,7 +21,7 @@ public class KeyCards : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = true;
-            //openText.SetActive(true);
+            uiObject.SetActive(true);
         }
     }
 
@@ -29,7 +30,7 @@ public class KeyCards : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = false;
-            //openText.SetActive(false);
+            uiObject.SetActive(false);
         }
     }
 
@@ -45,7 +46,12 @@ public class KeyCards : MonoBehaviour
     void getKeyCard()
     {
         gameController.keyCards += 1;
+        uiObject.SetActive(false);
         Destroy(transform.gameObject);
+        if (gameController.keyCards == 2)
+        {
+            Destroy(uiObject);
+        }
     }
 
 }

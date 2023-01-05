@@ -6,7 +6,6 @@ public class Doors : MonoBehaviour
 
 {
     public Animator door;
-    //public GameObject openText;
     public bool inReach;
 
     // Start is called before the first frame update
@@ -21,7 +20,6 @@ public class Doors : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = true;
-            //penText.SetActive(true);
         }
     }
 
@@ -30,7 +28,6 @@ public class Doors : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = false;
-            //openText.SetActive(false);
         }
     }
 

@@ -6,7 +6,7 @@ public class Room3Door : MonoBehaviour
 {
     public Animator door;
     public GameController gameController;
-    //public GameObject openText;
+    public GameObject uiObject;
     public bool inReach;
 
     // Start is called before the first frame update
@@ -15,6 +15,7 @@ public class Room3Door : MonoBehaviour
         inReach = false;
         door = this.transform.parent.GetComponent<Animator>();
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        uiObject.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)
@@ -22,7 +23,7 @@ public class Room3Door : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = true;
-            //penText.SetActive(true);
+            uiObject.SetActive(true);
         }
     }
 
@@ -31,7 +32,7 @@ public class Room3Door : MonoBehaviour
         if (other.gameObject.tag == "Reach")
         {
             inReach = false;
-            //openText.SetActive(false);
+            uiObject.SetActive(false);
         }
     }
 
@@ -47,6 +48,7 @@ public class Room3Door : MonoBehaviour
     void DoorOpens()
     {
         door.SetBool("character_nearby", true);
+        Destroy(uiObject);
     }
 
 }
