@@ -48,5 +48,4 @@ public class Doors : MonoBehaviour
         door.SetBool("character_nearby", true);
     }
 
-
 }

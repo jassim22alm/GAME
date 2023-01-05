@@ -11,7 +11,7 @@ public class SceneSwitch : MonoBehaviour
   }
      public void reStart()
   {
-       SceneManager.LoadScene("SampleScene");
+       SceneManager.LoadScene("Level1");
   }
    public void mainMenu()
   {
