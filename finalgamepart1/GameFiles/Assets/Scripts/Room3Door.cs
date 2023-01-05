@@ -48,6 +48,7 @@ public class Room3Door : MonoBehaviour
     void DoorOpens()
     {
         door.SetBool("character_nearby", true);
+        Destroy(gameObject);
         Destroy(uiObject);
     }
 

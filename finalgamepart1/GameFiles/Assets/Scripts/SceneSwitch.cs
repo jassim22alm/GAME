@@ -11,7 +11,7 @@ public class SceneSwitch : MonoBehaviour
   }
      public void reStart()
   {
-       SceneManager.LoadScene("Level1");
+       SceneManager.LoadScene("Level1Cutscene");
   }
    public void mainMenu()
   {
