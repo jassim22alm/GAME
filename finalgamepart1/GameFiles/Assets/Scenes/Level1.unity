@@ -13047,8 +13047,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 2.4528, y: -4}
-  m_SizeDelta: {x: 298.2802, y: 142.6301}
+  m_AnchoredPosition: {x: 14, y: 0}
+  m_SizeDelta: {x: 590.0086, y: 108.3091}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1452638880
 MonoBehaviour:
@@ -13083,7 +13083,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pick  the oxygen pack to reach to the Safe House
+  m_Text: Get to the enemy safe house before you run out of oxygen!
 --- !u!222 &1452638881
 CanvasRenderer:
   m_ObjectHideFlags: 0
