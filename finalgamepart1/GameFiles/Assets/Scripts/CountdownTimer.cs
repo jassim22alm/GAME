@@ -8,7 +8,7 @@ public class CountdownTimer : MonoBehaviour
 {
     public GameController gameController;
     float currentTime = 0f;
-    float startingTime = 20f;
+    float startingTime = 15f;
     public GameObject uiObject;
     public Text countdownText;
 
