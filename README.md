@@ -4,9 +4,9 @@ Game:
 - "A Mission To Mars"
 
 Story Background:
-- "You are a covert agent of the terra space force on a black ops mission and the main objective is to destory the rouge missile site on the Mars."
-- "Can you survive and complete the mission successfully under the attacks and extreme conditions? Or the Earth will need to face the explosion?"
-- "The destiny of the Earth is on your hand. Good luck, Agent!"
+- "You are a covert agent of the Terra Space Force on a black ops mission and the main objective is to destroy the rogue missile site on the Mars."
+- "Can you survive and complete the mission successfully under hostile attacks and in extreme conditions? Or will Earth as we know it be changed forever?"
+- "Our planet's fate is on your hands. Good luck, Agent!"
 
 How to play:
 
