@@ -12,14 +12,14 @@ Level 2
 - Avoid/kill enemies along the way
 
 Controls:
-W / Arrow Key Up(^) - Moving Forward
-A / Arrow Key Left(<) - Moving Left
-S / Arrow Key Down(v) - Moving Backward
-D / Arrow Key Right(>) - Moving Right
-Spacebar - Jump
-E - Interact
-Left Click - fires the gun
+- W / Arrow Key Up(^) - Moving Forward
+- A / Arrow Key Left(<) - Moving Left
+- S / Arrow Key Down(v) - Moving Backward
+- D / Arrow Key Right(>) - Moving Right
+- Spacebar - Jump
+- E - Interact
+- Left Click - fires the gun
 
-Alarm Sound Effect - https://mixkit.co/free-sound-effects/alarm/
-Level 2 Structure Assets - https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913
-Key Asset - https://assetstore.unity.com/packages/3d/handpainted-keys-42044
+- Alarm Sound Effect - https://mixkit.co/free-sound-effects/alarm/
+- Level 2 Structure Assets - https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913
+- Key Asset - https://assetstore.unity.com/packages/3d/handpainted-keys-42044
