@@ -2,14 +2,14 @@ How to play:
 
 Level 1
 - Reach the enemy safehouse before your oxygen runs out
-- Pick up oxygen packs on the way to refill your oxygen status
-- Avoid/kill enemies on the way
+- Pick up oxygen packs along the way to refill your oxygen status
+- Avoid/kill enemies as you progress
 
 Level 2
 - Find 2 keycards within the base to access the central room
 - Initiate self destruction at the console of the central room
 - Escape the base before it self destructs
-- Avoid/kill enemies along the way
+- Avoid/kill enemies as you progress
 
 Controls:
 - W / Arrow Key Up(^) - Moving Forward
