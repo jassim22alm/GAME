@@ -39,3 +39,5 @@ References
 - Main Menu Background - https://www.freepik.com/free-vector/alien-planet-surface-futuristic-landscape-with-glowing-moon-satellite-rock-cliff-dark-starry-sky_12407813.htm?query=mars%20background#from_view=detail_alsolike
 - Game Win Background - https://www.freepik.com/free-photo/background-astronaut-mars-looking-planet_28363402.htm#page=2&query=spaceman&position=6&from_view=search&track=sph#position=6&page=2&query=spaceman
 - Game Over Background - https://www.wallpaperflare.com/destroying-cosmic-object-planet-explosion-apocalypse-in-space-wallpaper-upnmg
+-Enemy Soldier- https://assetstore.unity.com/packages/3d/characters/humanoids/sci-fi/stardudes-modular-character-base-pack-26427
+-Weapon- https://devassets.com/assets/sci-fi-weapons/
